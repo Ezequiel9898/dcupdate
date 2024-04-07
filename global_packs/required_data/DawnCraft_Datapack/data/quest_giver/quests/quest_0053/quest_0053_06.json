@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0053_05",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "E aí?"
+    },
+    "description": {
+      "text": "Bom, que atrevimento o seu. Eu não mencionei nada sobre recompensa, não é? Vá embora agora, rapaz, antes que eu chame os guardas para você."
+    }
+  }
+}

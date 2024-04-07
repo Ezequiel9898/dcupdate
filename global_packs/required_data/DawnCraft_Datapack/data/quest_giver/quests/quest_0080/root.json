@@ -1,0 +1,12 @@
+{
+  "reputation": 2,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "Oi!"
+    },
+    "description": {
+      "text": "Olá, você poderia me conseguir um par de tesouras? As minhas acabaram de quebrar."
+    }
+  }
+}

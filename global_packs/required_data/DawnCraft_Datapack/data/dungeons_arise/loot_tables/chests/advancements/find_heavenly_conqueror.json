@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "Fantasmas Cavalgando no Céu",
+            "color": "red"
+        },
+        "description": {
+            "text": "Encontre um Conquistador Celestial"
+        },
+        "icon": {
+            "item": "minecraft:golden_chestplate"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "location0": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "feature": "dungeons_arise:heavenly_conqueror"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "location0"
+        ]
+    ],
+    "parent": "dungeons_arise:find_heavenly_rider"
+}

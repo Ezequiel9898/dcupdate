@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "Você Sabia?"
+    },
+    "description": {
+      "text": "Você sabia que há novos habitantes na dimensão? Rumores dizem que esses homens usam armaduras fabulosas e espadas indestrutíveis. Eu tive a oportunidade de examinar suas armaduras... Lindas, mas não muito práticas. Um bom martelo pode destruí-las com facilidade, haha!"
+    }
+  }
+}

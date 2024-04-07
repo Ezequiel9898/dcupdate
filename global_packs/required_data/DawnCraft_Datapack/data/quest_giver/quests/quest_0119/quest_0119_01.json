@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0119_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Coração de Dragão"
+    },
+    "description": {
+      "text": "Uma vez eu vi esses dragões de gelo. Criaturas aterrorizantes... No entanto, suas essências são tão majestosamente sedutoras. Eu preciso investigar os elementos presentes nelas."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Excelente! Aqui estão suas recompensas. Agora devo começar minha pesquisa."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:icedragon_heart"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_oceanographer",
+      "id": "quest_giver:command"
+    }
+  ]
+}

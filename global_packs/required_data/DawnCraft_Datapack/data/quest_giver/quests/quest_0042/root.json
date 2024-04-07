@@ -1,0 +1,12 @@
+{
+  "reputation": 2,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Ei!"
+    },
+    "description": {
+      "text": "Se você se autodenomina um aventureiro, você precisa ter uma bússola! Fabrique uma $(red)bússola$() e volte até mim."
+    }
+  }
+}

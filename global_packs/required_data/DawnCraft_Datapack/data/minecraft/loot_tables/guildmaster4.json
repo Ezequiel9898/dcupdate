@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+			"type": "minecraft:item",
+			"name": "minecraft:map",
+			"functions":  [
+				{
+				"function": "minecraft:exploration_map",
+				"destination": "custom:floating_island",
+				"decoration": "red_x",
+				"zoom": 1,
+				"skip_existing_chunks": false
+				},
+				{
+					"function": "minecraft:set_name",
+					"name": "Mapa para o Esqueleto Soberano"
+				},
+				{
+					"function": "minecraft:set_lore",
+					"lore": [{
+						"text": "O paradeiro do Esqueleto Soberano - um dos Portadores dos Olhos."
+					}]
+				}
+			]
+        	}
+  	  ]
+       }
+   ]
+}

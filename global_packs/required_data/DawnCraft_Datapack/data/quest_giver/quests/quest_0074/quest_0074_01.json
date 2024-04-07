@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Um Pedido Bizarro"
+    },
+    "description": {
+      "text": "Você poderia me dar 1 dos seus $(red)orbes espirituais$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "A estrutura disso é muito complicada... Você se importaria de me dar mais um desses?"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ]
+}

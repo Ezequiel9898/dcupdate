@@ -1,0 +1,12 @@
+{
+  "reputation": 20,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "Ei!"
+    },
+    "description": {
+      "text": "Como vai aventureiro, poderia me ajudar com uma coisa?"
+    }
+  }
+}

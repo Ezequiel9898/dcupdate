@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0040_01",
+  "reputation": 15,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "Mapa"
+    },
+    "description": {
+      "text": "Voltando para mais, hein? Bem, tenho outro desafio para você, caçar as feras reptilianas chamadas crocodilos e trazer para mim suas escamas. Essas criaturas vivem nos biomas de pântano. Mas tenha cuidado, essas criaturas são absurdamente fortes."
+    }
+  }
+}

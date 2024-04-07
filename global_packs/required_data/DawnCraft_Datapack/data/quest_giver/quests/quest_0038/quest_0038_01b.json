@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 13,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "Exploração!"
+    },
+    "description": {
+      "text": "Basicamente, eu preciso de ajuda para descobrir como diferentes biomas se parecem para que eu possa desenhá-los melhor nos mapas. Como aventureiro, achei que você seria perfeito para o trabalho! Atualmente, estou interessado em 3 biomas: Os Penhascos Brancos, As Areias Ancestrais e os Picos Vulcânicos."
+    }
+  }
+}

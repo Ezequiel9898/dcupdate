@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0053_02",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "E aí?"
+    },
+    "description": {
+      "text": "Então, conseguiu as $(red)4 bagas doces$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Você tem sido ótimo, jovem. Faria mais um favor para mim? Preciso de 2 beterrabas... Eu prometo que é a última coisa que vou pedir."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:sweet_berries"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ]
+}

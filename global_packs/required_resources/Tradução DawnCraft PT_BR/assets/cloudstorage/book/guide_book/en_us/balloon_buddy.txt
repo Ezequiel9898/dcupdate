@@ -1,0 +1,27 @@
+<NEWLINE>
+<NEWLINE>
+Todo esse interesse em balões te deixa bem solitário, o que é compreensível.
+Felizmente, você pode criar um amigo que não pode ser criado organicamente.
+Capturando um pequeno Bloviador em um frasco, você pode obter uma Nuvem Zangada Engarrafada. Alimentando esta pequena nuvem zangada com um cookie,
+você pode criar uma Nuvem Feliz Engarrafada. Esta pequena e nuvem feliz pode receber uma forma material, transformando-se em um Balão Amigo:
+<NEWLINE>
+Após a criação, os Balões Amigos serão atribuídos uma personalidade. Essa personalidade determina a expressão e o comportamento deles.
+Todos os Balões amigos funcionam como um lobo ou gato e podem ser feitos para ficar, seguir ou vagar. Eles podem ser pegos e transformados em itens por meio de agachar com a mão aberta.
+<NEWLINE>
+Personalidades:
+<NEWLINE>
+Feliz - Este amigo balão não se envolverá em combate, mas diminuirá as aparições de monstros próximos. Esta habilidade é indicada por efeitos de sol saindo do balão.
+<NEWLINE>
+Atrevido - Este balão se envolverá em combate corpo a corpo, mas pode esquivar de flechas e outros projéteis.
+<NEWLINE>
+Assustador - Este balão tem uma aparência aterrorizante e pode fazer com que monstros próximos fujam de medo - embora não possa atacar.
+<NEWLINE>
+Castigado - Este balão com tapa-olho entrará em "modo furtivo" e não atacará os monstros. Ele também reduz o alcance de detecção do proprietário quando próximo.
+<NEWLINE>
+Insano - Este balão irá se envolver em combate corpo a corpo e atacar em ritmo acelerado em comparação com outros balões.
+<NEWLINE>
+Troll - Este balão seleciona seus alvos de ataque e os solta de uma altura elevada.
+<NEWLINE>
+Encantador - Este balão não se envolverá em combate, mas sua mera presença pode colocar os monstros próximos em modo de amor.
+<NEWLINE>
+Legal - Este balão com óculos desenhados pode distrair alvos hostis e impedi-los de se mover ou atacar por um curto período de tempo.

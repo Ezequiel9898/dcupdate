@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0113_01",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Olá de novo!"
+    },
+    "description": {
+      "text": "Você conseguiu a $(red)gema$()? Pode ser que você tenha que exterminar a criatura para obtê-la."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Aqui está."
+    },
+    "description": {
+      "text": "Isso é incrível! Simplesmente... esplêndido. Vou precisar de um tempo com isso. Você pode me trazer um graveto? Acho que posso fazer algo especial para você."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "simple_mobs:gem_item"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ]
+}

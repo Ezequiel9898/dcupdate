@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 37,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Um Pedido Urgente"
+    },
+    "description": {
+      "text": "O mal está se aproximando. Você pode me ajudar a obter 16 barras de ferro? Preciso fazer mais armas para os guardas... Não estamos preparados."
+    }
+  }
+}

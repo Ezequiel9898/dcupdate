@@ -1,0 +1,12 @@
+{
+  "reputation": 5,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "Oi!"
+    },
+    "description": {
+      "text": "Olá, eu preciso de uma barra de netherita para fazer ferramentas. Você teria uma sobrando que poderia me dar? Eu vou pagar por ela, é claro."
+    }
+  }
+}

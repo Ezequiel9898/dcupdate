@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0110_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Olá de novo!"
+    },
+    "description": {
+      "text": "Grande homem. Por favor, me dê um pedaço de papel para que eu possa te mostrar onde está a criatura."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Aqui está."
+    },
+    "description": {
+      "text": "Aqui, o clérigo é quem nos deu essa informação, embora eu não tenha certeza se é totalmente precisa. De qualquer forma, encontre essa criatura, mate-a e traga de volta o que quer que ela deixe cair."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p quest_giver:cave_dwelling \"Contrato de Extermínio - Habitante das Cavernas\"",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:guard3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guard3 true",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

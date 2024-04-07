@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0025_01b",
+  "reputation": 10,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "Missão de Extermínio"
+    },
+    "description": {
+      "text": "Mate o Grifo, eu te pagarei muito bem... Mas tome cuidado, por favor."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Oh, graças aos deuses, você voltou! Você demorou tanto que os piores pensamentos vieram à minha mente... Eu estou aliviado que você esteja bem. Aqui está sua recompensa. Obrigado novamente."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:griffin_feather"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+      	"item": "minecraft:emerald"
+	},
+      "id": "quest_giver:item",
+      "times": 5
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

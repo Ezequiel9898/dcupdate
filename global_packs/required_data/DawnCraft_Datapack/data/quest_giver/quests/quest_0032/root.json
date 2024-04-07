@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Está com Tempo?"
+    },
+    "description": {
+      "text": "Ei, você pode me ajudar com algo? Será rápido."
+    }
+  }
+}

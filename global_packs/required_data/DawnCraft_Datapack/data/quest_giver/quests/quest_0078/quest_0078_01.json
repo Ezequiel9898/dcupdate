@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 48,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "Pedras de Outra Dimensão"
+    },
+    "description": {
+      "text": "Quando você chegar ao End, lembre-se de trazer $(red)pedras do End$()"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "hm... a qualidade não está... ruim. Vou usá-la bem, obrigado!"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:end_stone"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_mason",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    }
+  ]
+}

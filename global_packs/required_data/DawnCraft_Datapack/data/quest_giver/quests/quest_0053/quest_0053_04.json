@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0053_03",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "E aí?"
+    },
+    "description": {
+      "text": "Olá, você conseguiu as $(red)2 beterrabas$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Obrigado."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:beetroot"
+      },
+      "id": "quest_giver:gift",
+      "times": 2
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0056_01b",
+  "reputation": 14,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Um Pedido Curioso"
+    },
+    "description": {
+      "text": "Encontrou algum $(red)guardião gigante$()? Se sim, me traga seu espinho."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Isso é... extraordinário. O oceano está cheio de mistérios... Também ouvi histórias sobre lulas gigantes, acho que isso também pode ser verdade. De qualquer forma, aqui está sua recompensa. Obrigado por isso."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "progressivebosses:elder_guardian_spike"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    }
+  ]
+}

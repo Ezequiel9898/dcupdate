@@ -1,0 +1,11 @@
+{
+	"entity": "illageandspillage:magispeller",
+	"name": "Feiticeiro",
+	"namevisible": false,
+	"showbossbar": false,
+  	"ai-goals": {                                      
+    	    "brutalbosses:aftercombatregen": {                
+      	    "amount": 1
+    		}                    
+  	}	
+}

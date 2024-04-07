@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0055_01b",
+  "reputation": 4,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Então?"
+    },
+    "description": {
+      "text": "Você fez a viagem para o Nether e conseguiu pegar a $(red)pimenta fantasma$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Nossa, está queimando minha mão! Isso é mesmo pimenta fantasma, haha! Aqui está sua recompensa."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "nourished_nether:ghost_pepper"
+      },
+      "id": "quest_giver:gift",
+      "times": 3
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_farmer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    }
+  ]
+}

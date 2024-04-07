@@ -1,0 +1,39 @@
+{
+  "parent": "quest_giver:quest_0094_01b",
+  "reputation": 52,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "E então?"
+    },
+    "description": {
+      "text": "Volte até mim quando tiver preparado o prato $(red)Ensopado Ennegel$(). Vou recompensá-lo generosamente por isso."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Este sabor... Igualzinho à comida da minha mãe... Agradeço imensamente, aventureiro. Você não faz ideia de quanto estou grato por isso. Aqui, pegue isto. É uma katana forjada com o poder do ender. Duvido que exista uma arma mais forte."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "enlightened_end:ennegel_pasta"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "scattered_weapons:darkkatana"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 40,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Recuperando um Item Precioso"
+    },
+    "description": {
+      "text": "Por favor, me traga um pedaço de papel para que eu possa desenhar um mapa para você."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Aqui está."
+    },
+    "description": {
+      "text": "Desculpe pelo incômodo. Aqui está o local para onde você precisa ir. Há um livro lá que me pertence. Esse lugar costumava ser um templo cheio de estudiosos de toda a dimensão, mas não sei como está agora. Por favor, proceda com cautela e traga o meu livro."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:librarian_ruin \"Pedido do Bibliotecário\"",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/loot give @p loot minecraft:librarian1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p librarian1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

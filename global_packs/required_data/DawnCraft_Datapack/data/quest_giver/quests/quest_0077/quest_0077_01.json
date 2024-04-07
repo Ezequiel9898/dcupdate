@@ -1,0 +1,44 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 24,
+	"icon": "minecraft:stone",
+	"start": {
+		"title": {
+			"text": "Pedras de Outra Dimensão"
+		},
+		"description": {
+			"text": "Você já encontrou a $(red)pedra turquesa$()? Elas podem ser encontradas na dimensão do Eterno Entardecer."
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "Obrigado!"
+		},
+		"description": {
+			"text": "hm... a qualidade não está... ruim. Vou encontrar um bom uso para ela. Obrigado!"
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "blue_skies:turquoise_stone"
+		},
+		"id": "quest_giver:gift",
+		"times": 1
+	}],
+	"rewards": [{
+			"command": "/advancement grant @p only custom:trade_mason",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/addreputation reputation:village @p 2",
+			"id": "quest_giver:command"
+		},
+		{
+			"item": {
+				"item": "minecraft:emerald"
+			},
+			"id": "quest_giver:item",
+			"times": 1
+		}
+	]
+}

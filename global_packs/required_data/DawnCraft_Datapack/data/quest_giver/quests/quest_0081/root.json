@@ -1,0 +1,12 @@
+{
+  "reputation": 2,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "Oi!"
+    },
+    "description": {
+      "text": "Olá, você poderia me ajudar a conseguir 2 trigos maduros da fazenda? Eu preciso deles para reproduzir minhas ovelhas."
+    }
+  }
+}

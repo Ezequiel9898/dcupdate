@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Uma Ajudinha?"
+    },
+    "description": {
+      "text": "Bom homem! Você poderia me arranjar uma $(red)faca de ferro$()? A minha acabou de quebrar..."
+    }
+  }
+}

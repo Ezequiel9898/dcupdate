@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0098_01b",
+  "reputation": 20,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "Então?"
+    },
+    "description": {
+      "text": "Você já derrotou o golem e pegou seu $(red)Olho de Golem$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Pelos deuses! Esse é um dos itens mais fascinantes que já vi. É mais do que eu poderia imaginar. Aqui, pegue essas redstones como pagamento. Desculpe, mas não tenho esmeraldas comigo no momento."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "ba_bt:guardian_eye_land"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:redstone"
+      },
+      "id": "quest_giver:item",
+      "times": 32
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

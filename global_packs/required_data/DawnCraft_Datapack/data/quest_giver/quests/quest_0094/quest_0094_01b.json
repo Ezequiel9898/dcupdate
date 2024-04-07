@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 52,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "Ajuda"
+    },
+    "description": {
+      "text": "Existe um prato chamado Ensopado Ennegel. É um prato que só pode ser preparado com ingredientes encontrados na dimensão do End... Por favor, colete todos os recursos necessários e prepare um para mim."
+    }
+  }
+}

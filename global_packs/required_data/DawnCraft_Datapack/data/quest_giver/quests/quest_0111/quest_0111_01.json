@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0111_01b",
+  "reputation": 13,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Olá novamente!"
+    },
+    "description": {
+      "text": "Me traga um papel, eu vou te mostrar onde ele está."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Aqui."
+    },
+    "description": {
+      "text": "Aqui, é bem fácil de identificar assim que você se aproxima. Boa sorte e traga o que quer que ele solte."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p quest_giver:giant_hideout \"Contrato de Extermínio - O Gigante\"",
+      "id": "quest_giver:command"
+    }, 
+    {
+      "command": "/loot give @p loot minecraft:guard4",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guard4 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

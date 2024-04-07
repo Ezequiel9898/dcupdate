@@ -1,0 +1,12 @@
+{
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Ei"
+    },
+    "description": {
+      "text": "Ei você! Pode me dar uma mão?"
+    }
+  }
+}

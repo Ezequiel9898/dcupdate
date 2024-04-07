@@ -1,0 +1,10 @@
+{
+	"entity": "bloodandmadness:father_gascoigne",
+	"name": "Padre Gascoigne",
+	"namevisible": false,
+  	"ai-goals": {                                      
+    	    "brutalbosses:aftercombatregen": {                
+      	    "amount": 1
+    		}   
+  	}	
+}

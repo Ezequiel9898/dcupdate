@@ -1,0 +1,50 @@
+{
+  "parent": "quest_giver:quest_0074_01",
+  "reputation": 4,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "E então?"
+    },
+    "description": {
+      "text": "Eu preciso de mais um dos seus $(red)orbes espirituais$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Haha... jovem, você é muito ingênuo. Não coloque sua confiança em alguém com quem mal conversou. Vou devolver os orbes para você porque me sinto mal, mas lembre-se disso: Nem todos são tão gentis como eu."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "item": {
+        "item": "minecraft:cookie"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

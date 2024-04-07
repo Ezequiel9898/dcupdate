@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0061_01b",
+  "reputation": 0,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "Fabricação de Flechas"
+    },
+    "description": {
+      "text": "Você já conseguiu $(red)2 penas$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Obrigado. Aqui estão as flechas como prometido."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:feather"
+      },
+      "id": "quest_giver:gift",
+      "times": 2
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_fletcher",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:arrow"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    }
+  ]
+}

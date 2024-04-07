@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "Ei!"
+    },
+    "description": {
+      "text": "Olá, você pode me ajudar a conseguir uma $(red)lágrima de ghast$()? Preciso dela para minhas pesquisas médicas."
+    }
+  }
+}

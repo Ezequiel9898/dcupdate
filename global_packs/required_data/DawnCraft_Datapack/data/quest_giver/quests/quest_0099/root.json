@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:poppy",
+  "start": {
+    "title": {
+      "text": "Ei!"
+    },
+    "description": {
+      "text": "Você poderia pegar $(red)1 Anêmona de Bulbo de Rosa$() para mim se você encontrar alguma?"
+    }
+  }
+}

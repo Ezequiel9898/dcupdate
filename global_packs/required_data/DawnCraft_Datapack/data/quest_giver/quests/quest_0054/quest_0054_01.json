@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0054_01b",
+  "reputation": 5,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "E então?"
+    },
+    "description": {
+      "text": "Você conseguiu a $(red)enxada de ferro$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Ah, você conseguiu para nós... Sou muito grato por isso. Me sinto mal por pedir outro favor... Mas será que você poderia fazer $(red)2 pães$() para nós? Só sabemos cultivar e colher, sabe. Você pode usar o trigo da nossa fazenda para isso!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_hoe"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ]
+}

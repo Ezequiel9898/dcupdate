@@ -1,0 +1,45 @@
+{
+  "parent": "quest_giver:quest_0079_01b",
+  "reputation": 0,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "Pedido de Extermínio"
+    },
+    "description": {
+      "text": "Por favor, conclua a tarefa de extermínio o mais rápido possível. Está afetando minhas ovelhas."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Bom trabalho. Ainda há muitos deles por aí, mas acho que vejo menos agora. Aqui está sua recompensa."
+    }
+  },
+  "tasks": [
+    {
+      "entity": "minecraft:creeper",
+      "id": "quest_giver:kill",
+      "times": 6
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_shepherd",
+      "id": "quest_giver:command"
+    }
+  ]
+}

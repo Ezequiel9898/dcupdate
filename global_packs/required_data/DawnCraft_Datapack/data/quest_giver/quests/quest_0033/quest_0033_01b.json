@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 7,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Carne Exótica"
+    },
+    "description": {
+      "text": "Aqui na vila, geralmente só conseguimos os tipos regulares de carne. Ouvi dizer que existem criaturas chamadas cangurus que possuem uma carne macia e suculenta em seu rabo. Você poderia conseguir uma peça dessa carne para mim? E também gostaria de dar uma olhada no couro deles também."
+    }
+  }
+}

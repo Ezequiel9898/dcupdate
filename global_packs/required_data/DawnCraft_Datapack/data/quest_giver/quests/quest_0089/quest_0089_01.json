@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:honey_bottle",
+  "start": {
+    "title": {
+      "text": "Mel?"
+    },
+    "description": {
+      "text": "Você conseguiu o $(red)Frasco de Mel$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Esse é o melhor mel que já provei em muito tempo! Obrigado!"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:honey_bottle"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_weaponsmith",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

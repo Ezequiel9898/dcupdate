@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "Oi!"
+    },
+    "description": {
+      "text": "Você estaria interessado em uma missão de extermínio?"
+    }
+  }
+}

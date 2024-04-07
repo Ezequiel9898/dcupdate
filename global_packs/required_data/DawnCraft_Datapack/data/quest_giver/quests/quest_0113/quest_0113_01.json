@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0113_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Então?"
+    },
+    "description": {
+      "text": "Pode me trazer um pedaço de papel? Vou desenhar um mapa para você."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Aqui, vá até este local e tente... extrair as gemas da criatura. me traga as gemas, por favor.  Garanto que seu esforço valerá a pena."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:obsidian_spikes \"Investigue a Área Mencionada pelo Armeiro\"",
+      "id": "quest_giver:command"
+    },  
+    {
+      "command": "/loot give @p loot minecraft:weaponsmith1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p weaponsmith1 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

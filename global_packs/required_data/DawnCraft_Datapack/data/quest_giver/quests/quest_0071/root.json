@@ -1,0 +1,12 @@
+{
+  "reputation": 40,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Ei!"
+    },
+    "description": {
+      "text": "Saudações. Você estaria interessado em embarcar em uma aventura para mim, viajante?"
+    }
+  }
+}

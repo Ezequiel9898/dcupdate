@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "Fabricação de Flechas"
+    },
+    "description": {
+      "text": "Estou precisando de algumas penas para fazer flechas. Você poderia pegar $(red)2 penas$() para mim? Posso lhe dar algumas das flechas depois que eu terminar."
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 6,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "Então?"
+    },
+    "description": {
+      "text": "Você conseguiu os $(red)10 Pós de Redstone$() que pedi?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Obrigado, aqui está sua recompensa."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:redstone"
+      },
+      "id": "quest_giver:gift",
+      "times": 10
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_engineer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    }
+  ]
+}

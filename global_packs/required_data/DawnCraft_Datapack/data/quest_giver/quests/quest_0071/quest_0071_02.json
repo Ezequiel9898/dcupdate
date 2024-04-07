@@ -1,0 +1,48 @@
+{
+	"parent": "quest_giver:quest_0071_01",
+	"reputation": 40,
+	"icon": "minecraft:book",
+	"start": {
+		"title": {
+			"text": "E então?"
+		},
+		"description": {
+			"text": "Por favor, volte até mim se encontrar o livro."
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "Obrigado!"
+		},
+		"description": {
+			"text": "Este livro tem... valores sentimentais. Palavras não podem expressar o quão grato estou pelo seu serviço. Aqui, pegue isso. Ouvi dizer que aventureiros também usam magia, é verdade?"
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:written_book",
+			"forge:nbt": "{tag:\"librarian\"}"
+		},
+		"id": "quest_giver:gift",
+		"times": 1
+	}],
+	"rewards": [{
+			"command": "/addreputation reputation:villager @p 1",
+			"id": "quest_giver:command"
+		},
+		{
+			"item": {
+				"item": "irons_spellbooks:arcane_ingot"
+			},
+			"id": "quest_giver:item",
+			"times": 3
+		},
+		{
+			"item": {
+				"item": "minecraft:emerald"
+			},
+			"id": "quest_giver:item",
+			"times": 8
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 4,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Oi!"
+    },
+    "description": {
+      "text": "Estou morrendo de vontade de beber um frasco de mel! Você poderia conseguir um para mim?"
+    }
+  }
+}

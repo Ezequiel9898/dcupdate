@@ -1,0 +1,12 @@
+{
+  "reputation": 14,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "Ei!"
+    },
+    "description": {
+      "text": "Oi meu amigo! Você poderia me ajudar a conseguir um novo machado do ferreiro? Prometo te pagar bem!"
+    }
+  }
+}

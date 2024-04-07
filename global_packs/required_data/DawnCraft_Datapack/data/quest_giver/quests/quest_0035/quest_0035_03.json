@@ -1,0 +1,33 @@
+{
+	"parent": "quest_giver:quest_0035_03b",
+	"reputation": 35,
+	"icon": "minecraft:beef",
+	"start": {
+		"title": {
+			"text": "Incendium"
+		},
+		"description": {
+			"text": "A $(light_blue)Espada Invernal$(). Me avise se a encontrar no castelo das terras arrasadas de cinzas."
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "Pronto"
+		},
+		"description": {
+			"text": "Então... ele realmente se foi. Obrigado por me trazer o encerramento. Fique com a espada. Eu não tenho mais nada para te recompensar."
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:diamond_sword",
+			"forge:nbt": "{CustomModelData:1450003,incendium:{item:'chilling_blade'}}"
+		},
+		"id": "quest_giver:item_pickup",
+		"times": 1
+	}],
+	"rewards": [{
+		"command": "/addreputation reputation:villager @p 3",
+		"id": "quest_giver:command"
+	}]
+}

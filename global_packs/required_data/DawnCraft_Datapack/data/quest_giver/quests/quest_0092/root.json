@@ -1,0 +1,12 @@
+{
+  "reputation": 46,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "Oi!"
+    },
+    "description": {
+      "text": "Olá, aventureiro... Quando você derrotar o Dragão Ender, poderia me fazer um favor? É algo simples."
+    }
+  }
+}

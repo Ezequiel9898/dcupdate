@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 12,
+  "icon": "minecraft:iron_helmet",
+  "start": {
+    "title": {
+      "text": "Obrigado por ter Escutado."
+    },
+    "description": {
+      "text": "Obrigado por ter escutado. Meu alto-forno está quebrando... Você pode $(red)fabricar$() um novo para mim?"
+    }
+  }
+}

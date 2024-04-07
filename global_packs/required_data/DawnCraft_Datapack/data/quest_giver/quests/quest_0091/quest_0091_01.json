@@ -1,0 +1,51 @@
+{
+  "parent": "quest_giver:quest_0091_01b",
+  "reputation": 46,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "Então?"
+    },
+    "description": {
+      "text": "Por favor, deixe-me dar uma olhada quando você conseguir o $(red)ovo de dragão$(). Sempre foi meu sonho ver um de perto."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Então é assim que ele se parece... Sabia que você pode colocar o ovo de dragão e ele irá chocar um novo dragão? Vou te ensinar como domesticá-lo: Basta alimentá-lo com o máximo de peixes que puder... Simples, não é?"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:dragon_egg"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:dragon_egg"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_enderian",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add taming level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

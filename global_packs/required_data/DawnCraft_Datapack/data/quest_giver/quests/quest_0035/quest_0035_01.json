@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0035_01b",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Afiação de Faca"
+    },
+    "description": {
+      "text": "Você já conseguiu as $(red)5 pedras de ardósia$()? Minha lâmina está ficando sem corte."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Consegui"
+    },
+    "description": {
+      "text": "Bom trabalho! Como esperado, essas rochas possuem níveis de granulação grossa e fina. Muito obrigado! Aqui está sua recompensa."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:deepslate"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

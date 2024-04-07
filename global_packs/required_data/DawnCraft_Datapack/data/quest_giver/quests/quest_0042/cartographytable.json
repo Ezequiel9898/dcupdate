@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "Desbloqueando a Bancada de Cartografia"
+    },
+    "description": {
+      "text": "Oh... hm, tudo bem. Me dê 15 esmeraldas e eu te ensino como usá-la."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Aqui está."
+    },
+    "description": {
+      "text": "Não se intimide com os equipamentos na mesa, você vai pegar o jeito!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 15
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add sailing level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

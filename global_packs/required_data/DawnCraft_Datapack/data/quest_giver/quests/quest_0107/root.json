@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "Ei!"
+    },
+    "description": {
+      "text": "Ei amigo, você poderia me dar um $(red)Tronco de Madeira Crepuscular$()? Ele pode ser encontrado na dimensão do Eterno Amanhecer."
+    }
+  }
+}

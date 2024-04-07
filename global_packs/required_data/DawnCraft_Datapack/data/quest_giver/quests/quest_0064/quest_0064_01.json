@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0064_01b",
+  "reputation": 18,
+  "icon": "supplementaries:slingshot",
+  "start": {
+    "title": {
+      "text": "Fabricação de Estilingue"
+    },
+    "description": {
+      "text": "Ainda não conseguiu fazer o $(red)Estilingue$(), né? Não esquenta... Fazer um boa é estranhamente difícil."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Sim, isso é exatamente como eu imaginei! Hm... Não parece tão impressionante. Parece que usa pedras como munição... Bem, aqui está, pega pra você, eu realmente não preciso disso. Obrigado por me mostrar!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "supplementaries:slingshot"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "supplementaries:slingshot"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+	"parent": "quest_giver:quest_0054_01",
+	"reputation": 5,
+	"icon": "minecraft:wheat_seeds",
+	"start": {
+		"title": {
+			"text": "E então?"
+		},
+		"description": {
+			"text": "Por favor, me avise se você puder fazer $(red)2 pães$() para nós. Mas sem pressa!"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "Obrigado!"
+		},
+		"description": {
+			"text": "Muito obrigado! Por favor, aceite isso como agradecimento, não é muito, mas é tudo o que posso oferecer no momento."
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:bread"
+		},
+		"id": "quest_giver:gift",
+		"times": 2
+	}],
+	"rewards": [{
+			"command": "/advancement grant @p only custom:trade_farmer",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/addreputation reputation:villager @p 2",
+			"id": "quest_giver:command"
+		},
+		{
+			"item": {
+				"item": "minecraft:emerald"
+			},
+			"id": "quest_giver:item",
+			"times": 2
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "Ei!"
+    },
+    "description": {
+      "text": "Ei, você poderia me ajudar a conseguir $(red)5 olhos de aranha$()?"
+    }
+  }
+}

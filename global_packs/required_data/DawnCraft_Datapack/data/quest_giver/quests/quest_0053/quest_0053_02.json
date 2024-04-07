@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0053_01",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "E aí?"
+    },
+    "description": {
+      "text": "Você conseguiu as $(red)2 sementes de melancia$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Consegue me arrumar também 4 bagas doces? Nós, aldeões, não podemos correr o risco de ir para a floresta coletá-las.   *Você ouve o aldeão rindo enquanto termina a frase.*"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:melon_seeds"
+      },
+      "id": "quest_giver:gift",
+      "times": 2
+    }
+  ]
+}

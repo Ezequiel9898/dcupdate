@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0111_01",
+  "reputation": 13,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Então?"
+    },
+    "description": {
+      "text": "Conseguiu matar o gigante? Se sim, me traga os itens que ele deixou cair."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Bom trabalho! Este é realmente um de seus olhos... Como agradecimento, vou te ensinar uma habilidade de combate - Salto Demolidor. Esta habilidade melhora significativamente sua agilidade durante o combate!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:giant_eye_fragment"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:demolition_leap\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

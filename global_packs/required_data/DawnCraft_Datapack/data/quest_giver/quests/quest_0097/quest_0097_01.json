@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 12,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "Então?"
+    },
+    "description": {
+      "text": "Desculpa por eu não ter sido claro... Mas o problema é que eu não sei onde fica a estrutura ou como ela se parece. É um castelo de aldeões com engenhocas do Create, acredito que você saberá quando o ver."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Isso é incrivel! Só que eu duvido que esses aldeões construíram isso sozinhos, eles não têm um engenheiro com eles... Alguém os está mantendo lá. De qualquer forma, fico agradecido. Tome aqui um biscoito."
+    }
+  },
+  "tasks": [
+	{
+	   "id": "afptweaks:advancement",
+	   "advancement": "custom:castle"
+	}
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:cookie"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

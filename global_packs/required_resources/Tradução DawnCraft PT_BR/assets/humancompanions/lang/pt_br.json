@@ -1,0 +1,11 @@
+{
+    "entity.humancompanions.knight": "Cavaleiro",
+    "entity.humancompanions.archer": "Arqueiro",
+    "entity.humancompanions.arbalist": "Besteiro",
+    "entity.humancompanions.axeguard": "Protetor",
+    "container.humancompanions.companion_inventory": "Inventário de Companheiro",
+    "item.humancompanions.arbalist_spawn_egg": "Ovo de Besteiro",
+    "item.humancompanions.archer_spawn_egg": "Ovo de Arqueiro",
+    "item.humancompanions.axeguard_spawn_egg": "Ovo de Protetor",
+    "item.humancompanions.knight_spawn_egg": "Ovo de Cavaleiro"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "Ótimo!"
+    },
+    "description": {
+      "text": "Dizem que há um bioma dentro desta dimensão onde vapores fluem acima de águas ferventes e uma névoa mágica cobre toda a montanha. Bravo aventureiro, se você algum dia encontrar um lugar assim, por favor, volte e me diga como é de verdade!"
+    }
+  }
+}

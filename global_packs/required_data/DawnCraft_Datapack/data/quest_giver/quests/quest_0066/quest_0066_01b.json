@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 24,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "Ajuda"
+    },
+    "description": {
+      "text": "Preciso que você colete $(red)2 peles de urso negro$(). Volte quando tiver os itens."
+    }
+  }
+}

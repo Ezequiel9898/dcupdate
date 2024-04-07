@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "Uma Oferta"
+    },
+    "description": {
+      "text": "15 esmeraldas e eu te ensino a usar a habilidade Passo."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Aqui está. Prefiro usar isso a rolar na lama!"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "amount": 15
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:step\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,812 @@
+{
+	id: "6AAEB02A99CBCDA7"
+	group: "0A520B482648497B"
+	order_index: 3
+	filename: "witchcraft"
+	title: "Witchcraft"
+	icon: {
+		id: "hexerei:book_of_shadows"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Bem-vindo(a) ao Hexerei"
+			icon: {
+				id: "hexerei:book_of_shadows"
+				Count: 1b
+				tag: { }
+			}
+			x: 0.0d
+			y: 0.0d
+			description: [" Bem-vindo ao Hexerei! Através desta cadeia de missões, você aprenderá tu- do o que precisa saber sobre a prá- tica da bruxaria."]
+			size: 2.0d
+			id: "758B99AACB978297"
+			tasks: [{
+				id: "27A8151F5396B022"
+				type: "checkmark"
+				title: "Lido"
+			}]
+			rewards: [{
+				id: "4675E9128CFFA4C1"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: [
+				" Seu caldeirão básico de bruxaria. Aqui é onde você criará a maioria dos seus itens."
+				""
+				" O uso deste bloco está bloqueado até a conclusão de uma missão específica do Aldeão Clérigo. O conhecimento ne- cessário para usar caldeirões pode em vez disso ser desbloqueado em uma missão encontrada acima, no entanto o preço é alto…"
+				""
+				" -&b&l Uso"
+				" Caldeirões podem conter vários tipos de líquidos, que podem ser despejados diretamente nele. Algumas receitas de criação também podem mudar o líquido armazenado em um tipo diferente, que pode ser necessário para outras re- ceitas. Materiais adicionais necessários para uma receita de criação podem ser jogados no caldeirão ou adiciona- dos através do menu acessado clican- do com o botão direito do mouse no caldeirão. Depois que os materiais ne- cessários forem adicionados, o item finalizado pode ser recuperado cli- cando com o botão direito do mouse no caldeirão para acessar o menu de criação."
+			]
+			dependencies: ["758B99AACB978297"]
+			size: 1.5d
+			id: "7D2C066D53F03275"
+			tasks: [{
+				id: "3B08C26FD9D9E6C2"
+				type: "item"
+				item: "hexerei:mixing_cauldron"
+			}]
+			rewards: [{
+				id: "50841D6410C37FA7"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Desbloqueando o Conhecimento dos Caldeirões"
+			icon: "minecraft:written_book"
+			x: 0.0d
+			y: -2.6999999999999997d
+			description: [" Caldeirões do Hexerei exigem nível 2 de conhecimento para usar. Isso pode ser obtido através de uma missão do Aldeão Clérigo, no entanto aqueles que estão tendo dificuldades em encontrar esta missão ou que falharam em completá-la podem em vez disso comprar o conheci- mento aqui, por um preço…"]
+			dependencies: ["758B99AACB978297"]
+			size: 1.8d
+			id: "6A0035A4A88A4381"
+			tasks: [
+				{
+					id: "03CAA86634BACD2A"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 10L
+				}
+				{
+					id: "7FAB375F6FC02067"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 64L
+				}
+				{
+					id: "161659D5BDBC4C5F"
+					type: "item"
+					item: "minecraft:golden_apple"
+					count: 10L
+				}
+			]
+			rewards: [{
+				id: "0333232AE6BE4B35"
+				type: "command"
+				title: "Conhecimento de Caldeirão Nível 2"
+				icon: "minecraft:written_book"
+				command: "/pmmo admin @p add slayer level 2"
+			}]
+		}
+		{
+			title: "Símbolo de Sangue"
+			x: 1.5d
+			y: 2.0d
+			description: [" Um aprimoramento de caldeirão que permite a adição de sangue em recei- tas de itens que o exigem. Basta colo- car o símbolo no espaço apropriado na interface do caldeirão e saltar dentro dele para criar sangue. Saltar mais vezes irá adicionar mais sangue. Outros líquidos e materiais podem ser adicionados normalmente. Receitas comuns que não exigem sangue ainda podem ser criadas enquanto o símbolo estiver no caldeirão."]
+			dependencies: ["7D2C066D53F03275"]
+			size: 1.3d
+			id: "03B7E08CB2B2362E"
+			tasks: [{
+				id: "2C11E4C768995B1B"
+				type: "item"
+				item: "hexerei:blood_sigil"
+			}]
+			rewards: [{
+				id: "761437E88A03A8AF"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Balde de Sebo"
+			x: -1.5d
+			y: 1.0d
+			description: [" Coloque 6 gorduras animais e 2 favos de mel em um caldeirão cheio de água para produzir sebo. Usado na criação de velas."]
+			dependencies: ["7D2C066D53F03275"]
+			id: "3BA3BF3785F2A9EC"
+			tasks: [{
+				id: "4AE93959A66AA10D"
+				type: "item"
+				item: "hexerei:tallow_bucket"
+			}]
+			rewards: [{
+				id: "64015B1B2A429D3F"
+				type: "item"
+				item: "minecraft:axolotl_bucket"
+			}]
+		}
+		{
+			title: "Suporte de Velas"
+			x: -2.5d
+			y: 0.0d
+			description: [" Coloque em um caldeirão cheio de se- bo para usar. Adicione linhas ao su- porte de velas clicando com o botão direito nelas para começar a submer- gir as velas."]
+			dependencies: ["3BA3BF3785F2A9EC"]
+			size: 1.3d
+			id: "3647588131AA1187"
+			tasks: [{
+				id: "1088092CDAA3BB70"
+				type: "item"
+				item: "hexerei:candle_dipper"
+			}]
+			rewards: [{
+				id: "133A5FDC003743E6"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Vela"
+			x: -3.5d
+			y: -1.0d
+			description: [" Uau! É uma vela! Pode ser tingida e usada como um bloco decorativo. Acen- da-a com uma pederneira para obter uma luz com duração limitada. Pode ser usado para criar candelabros. Várias velas podem ser colocadas juntas no mesmo bloco."]
+			dependencies: ["3647588131AA1187"]
+			id: "430A7C370D3DCC00"
+			tasks: [{
+				id: "2BCF72CDA85612AD"
+				type: "item"
+				item: "hexerei:candle"
+			}]
+			rewards: [{
+				id: "4663243CCA17903D"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Candelabro"
+			x: -4.5d
+			y: -2.0d
+			description: [" Uma luz decorativa. Pode ser acesa por um tempo limitado. Pode ser colo- cada em um bloco sólido ou pendurada em uma corrente. Se conecta automati- camente a blocos de corrente acima."]
+			dependencies: ["430A7C370D3DCC00"]
+			id: "7465B863C4896248"
+			tasks: [{
+				id: "21866190D068BF03"
+				type: "item"
+				item: "hexerei:candelabra"
+			}]
+			rewards: [{
+				id: "10A43274AADCD2B6"
+				type: "item"
+				item: "bloodandmadness:bullets/netherite_bullet"
+				count: 2
+			}]
+		}
+		{
+			title: "Sálvia"
+			x: 2.0d
+			y: 0.0d
+			description: [" Uma erva básica. Pode ser encontra- da em pântanos e outros biomas, ou cultivada a partir de sementes de sál- via que são comumente derrubadas por grama e plantas."]
+			dependencies: ["758B99AACB978297"]
+			id: "63426BF34D49D775"
+			tasks: [{
+				id: "1EF473CF02DD26D1"
+				type: "item"
+				item: "hexerei:sage"
+			}]
+		}
+		{
+			title: "Suporte de Secagem"
+			x: 2.5d
+			y: -1.5d
+			description: [" Usado para secar ervas e itens à base de ervas. Clique com o botão di- reito do mouse com um item para pen- durá-lo e pressione shift + clique com o botão direito do mouse para remo- vê-lo"]
+			dependencies: ["63426BF34D49D775"]
+			size: 1.3d
+			id: "1CFBAADF7DEF4EB8"
+			tasks: [{
+				id: "2EF4372341F1F841"
+				type: "item"
+				item: "hexerei:herb_drying_rack"
+			}]
+		}
+		{
+			title: "Feixe de Sálvia Seca"
+			x: 3.0d
+			y: -3.0d
+			description: [" Coloque em um Prato de Queima de Sálvia para queimar. Impede que mobs apareçam em um raio. Veja a borda da zona afetada através de um efeito de “anel de fumaça” que pode ser visto ao redor da área afetada. Pode ser pego para pausar o efeito de queima e iniciado novamente em um momento pos- terior. Ótimo para manter as bases mais seguras durante a noite."]
+			dependencies: ["1CFBAADF7DEF4EB8"]
+			id: "48D563E6DA99E3F9"
+			tasks: [{
+				id: "0705929F3C22599C"
+				type: "item"
+				item: {
+					id: "hexerei:dried_sage_bundle"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Prato de Queima de Sálvia"
+			x: 3.5d
+			y: -4.5d
+			description: [" Coloque feixes de sálvia seca neste prato e acenda com uma pederneira."]
+			dependencies: ["48D563E6DA99E3F9"]
+			id: "5049C85915A199E4"
+			tasks: [{
+				id: "59D32D1E615FCD65"
+				type: "item"
+				item: "hexerei:sage_burning_plate"
+			}]
+			rewards: [{
+				id: "29DA21012C54A1B1"
+				type: "item"
+				item: "plushies:cat"
+			}]
+		}
+		{
+			title: "Jarro de Ervas"
+			x: -3.5d
+			y: 3.0d
+			description: [" Encha um caldeirão cheio de lava com areia para criar. Ele pode armazenar uma quantidade muito grande de um único tipo de planta ou erva. Para acessar o armazenamento, pressione o botão direito. Você pode armazenar uma planta ou erva ao clicar com ela em mãos. Para retirar um item, dê um hit nele, se desejar retirar um pack com- pleto, segure Shift e dê um hit. Você pode rotulá-lo em uma bigorna. Além disso, ele pode ser facilmente coletado e colocado novamente, mantendo os itens armazenados."]
+			dependencies: ["7D2C066D53F03275"]
+			id: "37BD6B0893D6BC03"
+			tasks: [{
+				id: "4D8C72601BC320A6"
+				type: "item"
+				item: {
+					id: "hexerei:herb_jar"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "34A2B0CFEB80615A"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Cofre"
+			x: -1.3d
+			y: 5.2d
+			description: [
+				" Armazena itens e os exibe visualmente. Pode ser coletado juntamente com o conteúdo como uma caixa de shulker."
+				"Use um corante para tingir."
+			]
+			dependencies: ["7D2C066D53F03275"]
+			size: 1.3d
+			id: "215893DA53A9DEBF"
+			tasks: [{
+				id: "0C00E6A5E3FA7E2C"
+				type: "item"
+				item: {
+					id: "hexerei:coffer"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4F33550ECDDA374E"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Vassoura de Salgueiro"
+			x: 2.5d
+			y: 3.5d
+			description: [
+				" Permite voar!"
+				""
+				" Pressione shift + clique com o botão direito do mouse para abrir a inter- face da vassoura. A partir daqui, você pode personalizar sua vassoura e al- terar suas configurações (pairar ou pousar). IMPORTANTE: Se você cair de uma vassoura em pleno voo e ela es- tiver no modo pairar, ela ficará lá em cima! Você terá mais facilidade em re- cuperar vassouras no modo “pou- sar”… a menos que ela pouse na água…"
+				""
+				" Vassouras são dirigidas de maneira semelhante a um barco. Clique com o botão direito do mouse para montar, pressione shift + clique com o botão direito do mouse para desmontar. Se- gure espaço para voar ou pressione shift para descer.\\n"
+				" Soque repetidamente para quebrar e pegar."
+			]
+			dependencies: ["03B7E08CB2B2362E"]
+			size: 1.3d
+			id: "5227F33207D38CFC"
+			tasks: [{
+				id: "321F1EAE5B2DDFB0"
+				type: "item"
+				item: {
+					id: "hexerei:willow_broom"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3242836206FD9650"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Vassoura de Mogno"
+			x: 3.5d
+			y: 4.5d
+			description: [" Mais rápida, mais durável e resistente ao fogo."]
+			dependencies: ["5227F33207D38CFC"]
+			size: 1.3d
+			id: "428171D49BCEF30E"
+			tasks: [{
+				id: "175E4919A3D167BE"
+				type: "item"
+				item: {
+					id: "hexerei:mahogany_broom"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "25C27CA0052284C6"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			description: [" Ajuda a encontrar pântanos e selvas para obter itens importantes na cria- ção de poções e outros artefatos de bruxaria. Ao passar o cursor sobre o item desejado, pressione a tecla Shift para obter uma descrição detalhada."]
+			dependencies: ["758B99AACB978297"]
+			id: "461139AB9A78151D"
+			tasks: [{
+				id: "05B36D539EB37236"
+				type: "item"
+				item: "hexerei:dowsing_rod"
+			}]
+			rewards: [{
+				id: "06AFF148FA5AB182"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			title: "Frasco de Sangue"
+			x: 3.0d
+			y: 1.5d
+			description: [" Sangue engarrafado. Segure shift enquanto passa o mouse sobre o item para obter mais detalhes. Usado em algumas receitas de criação."]
+			dependencies: ["03B7E08CB2B2362E"]
+			id: "4E6B5FEB5F44E947"
+			tasks: [{
+				id: "69FAD767D10404F7"
+				type: "item"
+				item: "hexerei:blood_bottle"
+			}]
+			rewards: [{
+				id: "3E14DA0B826A1DDC"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Bolsa Pequena"
+			x: 4.0d
+			y: 3.0d
+			description: [" Adicione ao espaço 'Bolsa' da sua vassoura. Adiciona capacidade de ar- mazenamento à sua vassoura."]
+			dependencies: ["5227F33207D38CFC"]
+			id: "78FCEF109D9CB599"
+			tasks: [{
+				id: "24DC8616D09B033C"
+				type: "item"
+				item: "hexerei:small_satchel"
+			}]
+			rewards: [{
+				id: "1ACCA75AE8D08AA4"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Bolsa Média"
+			x: 5.0d
+			y: 3.0d
+			description: [" Melhora a capacidade de armazena- mento."]
+			dependencies: ["78FCEF109D9CB599"]
+			id: "7F5D2E60E4CD5CF5"
+			tasks: [{
+				id: "341BFCB412F72A7E"
+				type: "item"
+				item: "hexerei:medium_satchel"
+			}]
+			rewards: [{
+				id: "1E1996E84A37C349"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Bolsa Grande"
+			x: 6.0d
+			y: 3.0d
+			description: [" Melhora consideravelmente a capaci- dade de armazenamento."]
+			dependencies: ["7F5D2E60E4CD5CF5"]
+			id: "217AD1F73111EF57"
+			tasks: [{
+				id: "3AD757AEDBB3ACAC"
+				type: "item"
+				item: "hexerei:large_satchel"
+			}]
+			rewards: [{
+				id: "6871DF802AD758BC"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Anéis de Ouro"
+			x: 1.5d
+			y: 4.5d
+			description: [" Anéis decorativos para sua vassoura. Adicione-os no espaço de \"Miscelânea\"."]
+			dependencies: ["5227F33207D38CFC"]
+			id: "6174E85ADB639FA2"
+			tasks: [{
+				id: "731ACE4E30681DC5"
+				type: "item"
+				item: "hexerei:gold_rings"
+			}]
+			rewards: [{
+				id: "5847523E6894FAC7"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Chaveiro de Vassoura"
+			x: 1.0d
+			y: 5.5d
+			description: [" Item decorativo para sua vassoura. Crie um chaveiro desse item (o item se- rá consumido!) ao combiná-lo na recei- ta. Adicione o chaveiro no espaço de \"Miscelânea\" de sua vassoura para exibir o chaveiro do item escolhido."]
+			dependencies: ["6174E85ADB639FA2"]
+			id: "6A54AEC72104C48C"
+			tasks: [{
+				id: "09614B2230540949"
+				type: "item"
+				item: {
+					id: "hexerei:broom_keychain"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "73B766D43F0A8AC4"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Escova de Vassoura"
+			x: 0.5d
+			y: 3.5d
+			description: [
+				" Colocado no espaço 'Escova' da vas- soura. Permite que a vassoura fun- cione. Degrada ao longo do tempo. Pode ser encantado para melhorar a dura- bilidade."
+				""
+			]
+			dependencies: ["5227F33207D38CFC"]
+			id: "0C80B91AFB6EB414"
+			tasks: [{
+				id: "0C1BD7D79C5A73DB"
+				type: "item"
+				item: {
+					id: "hexerei:broom_brush"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1C2A2F374E87E701"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Escova de Vassoura Aprimorada"
+			x: 0.0d
+			y: 4.5d
+			description: [" Uma escova de vassoura mais resistente."]
+			dependencies: ["0C80B91AFB6EB414"]
+			id: "0BFAB3BEE1700004"
+			tasks: [{
+				id: "7C4DFC0CDD9AAC14"
+				type: "item"
+				item: {
+					id: "hexerei:herb_enhanced_broom_brush"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5E8EA8A193E22E08"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Ponta de Vassoura Impermeável"
+			x: 2.5d
+			y: 5.5d
+			description: [" Adicione ao espaço \"Miscelânea\" da in- terface da sua vassoura. Melhora a resistência à água. Perde durabilidade gradualmente quando em contato com água. Permite voar na água."]
+			dependencies: ["5227F33207D38CFC"]
+			id: "70C162E9A761F649"
+			tasks: [{
+				id: "70FB8A35BEE06BAE"
+				type: "item"
+				item: {
+					id: "hexerei:broom_waterproof_tip"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3CC9954CA71EB8C0"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Ponta de Vassoura de Netherita"
+			x: 2.0d
+			y: 6.5d
+			description: ["Aumenta a resistência a fogo da vassou- ra. Permite voar na lava."]
+			dependencies: ["70C162E9A761F649"]
+			id: "1E7E794756D864F1"
+			tasks: [{
+				id: "7297BE20FBE4E6AA"
+				type: "item"
+				item: {
+					id: "hexerei:broom_netherite_tip"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "679C93B32EE52E4A"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Ervas"
+			x: 3.5d
+			y: 0.0d
+			description: [" Várias ervas podem ser encontradas nos biomas de pântano. Estas são ne- cessárias para muitas receitas de bruxaria."]
+			dependencies: ["63426BF34D49D775"]
+			id: "7CB413EE0146CF04"
+			tasks: [
+				{
+					id: "0CC84234811B452A"
+					type: "item"
+					item: "hexerei:belladonna_flowers"
+				}
+				{
+					id: "171360C04C8162BD"
+					type: "item"
+					item: "hexerei:mandrake_root"
+				}
+				{
+					id: "11DAE9A3B2A04786"
+					type: "item"
+					item: "hexerei:mugwort_flowers"
+				}
+				{
+					id: "028CE7DC8B67A275"
+					type: "item"
+					item: "hexerei:yellow_dock_flowers"
+				}
+				{
+					id: "749393FBA7EC95B2"
+					type: "item"
+					item: "hexerei:mugwort_leaves"
+				}
+				{
+					id: "6D04F0C52C4FACCF"
+					type: "item"
+					item: "hexerei:yellow_dock_leaves"
+				}
+			]
+			rewards: [{
+				id: "45737AFEDCC04E4F"
+				type: "item"
+				item: "minecraft:emerald"
+				count: 2
+			}]
+		}
+		{
+			title: "Almofariz e Pilão"
+			x: -3.5d
+			y: 1.5d
+			description: [" Usado para moer sementes em mistura de sementes para domesticação de corvos."]
+			dependencies: ["7D2C066D53F03275"]
+			size: 1.3d
+			id: "3B1A6973557F7E3C"
+			tasks: [{
+				id: "52204484270771E3"
+				type: "item"
+				item: "hexerei:pestle_and_mortar"
+			}]
+			rewards: [{
+				id: "2F8E07D7A91CD5BF"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Mistura de Sementes"
+			x: -5.0d
+			y: 1.5d
+			description: [" Criado em um Almofariz e Pilão. Alimen- te corvos selvagens para ter uma chance de domesticá-los. Os corvos podem ser encontrados na maioria dos biomas, como florestas e pântanos. Veja a próxima missão \"Flauta de Cor- vos\" para um guia completo sobre o uso dos corvos."]
+			dependencies: ["3B1A6973557F7E3C"]
+			id: "4EEC8127EDECFC93"
+			tasks: [{
+				id: "31B40682E7140C13"
+				type: "item"
+				item: "hexerei:seed_mixture"
+			}]
+			rewards: [{
+				id: "09242CB6DDB7B51B"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			title: "Domesticando Corvos"
+			icon: {
+				id: "hexerei:crow_flute"
+				Count: 1b
+				tag: { }
+			}
+			x: -6.5d
+			y: 1.5d
+			description: [
+				" Corvos podem ser domesticados ali- mentando-os com uma mistura de se- mentes. Uma vez domesticados, eles podem ser controlados usando uma Flauta de Corvos."
+				""
+				" Clique com o botão direito em um corvo familiar enquanto estiver agachado para acessar a interface dele. A par- tir daqui, você pode alterar o modo de seguir, comportamento e equipar vári- os itens decorativos."
+				""
+				" -&b&l Modo de Seguir"
+				" Ao definir um modo de seguir, você pode alterar como o corvo segue o jogador. Ele pode seguir/pousar no ombro do jogador, passear ou sen- tar-se. Defina o corvo para o modo \"Ajudar\" para habilitar suas funções de coleta."
+				""
+				" -&b&l Coleta"
+				" Corvos em modo de coleta irão reco- lher itens próximos e colocá-los em um baú próximo. Os tipos de itens que vo- cê deseja coletar devem estar pre- sentes no baú. Para depositar os itens, os corvos devem ser configura- dos para pousar em um baú (consulte a seção \"Flauta de Corvos\")."
+				""
+				" -&b&l Colher"
+				" Corvos em modo de colher irão colher plantações próximas, incluindo plantas naturais e algumas plantas (como as plantas Hexerei encontradas em biomas de pântano). Pode ser combinado com corvos de coleta para automatizar completamente sua fazenda. Melhor usado com a flauta de corvos (veja abaixo)."
+				""
+				" -&b&l Flauta de Corvos."
+				" Ao segurar a flauta de corvos, pres- sione shift e clique com o botão direito do mouse para acessar a interface da flauta. Esta interface é semelhante a interface do corvo, mas pode ser usa- da para selecionar e comandar vários corvos, bem como definir pontos de casa para corvos individualmente ou em grupo. Escolher a opção \"Selecio- nar\" permitirá clicar com o botão direi- to do mouse nos corvos com a flauta para selecioná-los ou desmarcá-los. Mudar para o modo \"Sentar\" permitirá definir um local de pouso para todos os corvos atualmente selecionados. Alterar qualquer uma das configura- ções de seguir/ajudar mudará essas configurações para todos os corvos selecionados de uma só vez. Ótimo para direcionar um grande número de cor- vos de uma só vez e a única maneira de definir locais de pouso para cor- vos. Clique com o botão direito do mou- se com a flauta para ativar a função selecionada."
+				""
+				" -&b&l Furtar"
+				" Corvos no modo furtar irão roubar de aldeões próximos e deixar os itens roubados em sua posição de pouso. Configure-os para pousar em um funil para facilitar o depósito em um baú. Eles roubam uma variedade de itens, incluindo esmeraldas. Os corvos voa- rão ao redor após roubar para evitar detecção antes de depositar."
+				""
+				" -&b&l Reprodução"
+				" Vários corvos domesticados podem ser alimentados com pepitas de ouro para reproduzir."
+			]
+			dependencies: ["4EEC8127EDECFC93"]
+			size: 1.5d
+			id: "1BBB911894B0070A"
+			tasks: [{
+				id: "0AEF524248C91795"
+				type: "item"
+				item: {
+					id: "hexerei:crow_flute"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "57EB6375A9C8A606"
+				type: "item"
+				item: "plushies:parrot"
+			}]
+		}
+		{
+			title: "Tecido Infundido"
+			x: -3.0d
+			y: 4.5d
+			description: [" Fabricado em um caldeirão, o tecido infundido é fundamental para a con- fecção da sua roupa de bruxo(a)."]
+			dependencies: ["7D2C066D53F03275"]
+			size: 1.3d
+			id: "4321174BCD4E13A9"
+			tasks: [{
+				id: "22BA0C96D97B6733"
+				type: "item"
+				item: "hexerei:infused_fabric"
+			}]
+			rewards: [{
+				id: "1BFBD1DE9E4C3CCC"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Chapéu de Bruxa"
+			x: -4.5d
+			y: 5.5d
+			description: [" Roupa de bruxo(a). É ligeiramente mais resistente do que a armadura de fer- ro e fornece uma série de efeitos úteis. Permite que o jogador se mistu- re com as bruxas."]
+			dependencies: ["4321174BCD4E13A9"]
+			id: "631CBCD0CA912A0C"
+			tasks: [
+				{
+					id: "27FA4D3B634D167E"
+					type: "item"
+					item: {
+						id: "hexerei:witch_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3B8AFF6CCF8A06D9"
+					type: "item"
+					item: {
+						id: "hexerei:witch_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5F9B3A46FD031E7A"
+					type: "item"
+					item: {
+						id: "hexerei:witch_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "20638792E0F8E723"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			title: "Chapéu de Bruxa de Cogumelos"
+			x: -5.5d
+			y: 6.5d
+			description: [" Um chapéu de bruxa melhorado esteti- camente."]
+			dependencies: ["631CBCD0CA912A0C"]
+			id: "6256CF4A57FEC937"
+			tasks: [{
+				id: "380BE5CBFFEA6B24"
+				type: "item"
+				item: {
+					id: "hexerei:mushroom_witch_hat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1AE3D5DC99D59639"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

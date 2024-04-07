@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "E aí?"
+    },
+    "description": {
+      "text": "10 esmeraldas e eu te ensino como usar a bancada de cartografia."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Aqui está."
+    },
+    "description": {
+      "text": "Não se intimide com os equipamentos da bancada, você vai pegar o jeito!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 10
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add sailing level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

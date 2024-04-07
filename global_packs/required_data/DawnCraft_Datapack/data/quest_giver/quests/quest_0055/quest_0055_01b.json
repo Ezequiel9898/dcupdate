@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "E então?"
+    },
+    "description": {
+      "text": "Especiarias parecem ser a nova moda nesta vila... Estou procurando cultivar a pimenta mais ardente conhecida e lucrar com isso, haha! Você já ouviu falar de um tipo de pimenta chamada 'pimenta fantasma' que pode ser encontrada no Nether? Bem, eu preciso que você colete $(red)3 dessas pimentas fantasmas$() e as traga para mim."
+    }
+  }
+}

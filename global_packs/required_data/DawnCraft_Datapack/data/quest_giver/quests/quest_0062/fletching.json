@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Desbloqueando a Bancada de Arco e Flecha"
+    },
+    "description": {
+      "text": "Huh, certo. 15 Esmeraldas para aprender a usar a bancada de arco e flecha."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Tudo pronto. Divirta-se fazendo flechas!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 15
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add archery level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

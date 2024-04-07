@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0035_01",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Incendium"
+    },
+    "description": {
+      "text": "Ah, voltou tão cedo? Bem, você esteve no Nether? Há um bioma chamado terras arrasadas de cinzas no Nether. Veja se consegue encontrar um castelo lá, mesmo que não possa, volte até mim. Quero saber como é aquele lugar, por favor."
+    }
+  }
+}

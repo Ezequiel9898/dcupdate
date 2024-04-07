@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 15,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "Uma Tarefa Impossível!"
+    },
+    "description": {
+      "text": "Você sabia que existem essas criaturas gigantescas chamadas elefantes que vivem em biomas de savana? Bem, alguns de nossa espécie conseguiram domesticá-los. Acha que consegue fazer isso? Domar um elefante?"
+    }
+  }
+}

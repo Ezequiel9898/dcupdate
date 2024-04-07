@@ -1,0 +1,12 @@
+{
+  "reputation": 12,
+  "icon": "minecraft:blast_furnace",
+  "start": {
+    "title": {
+      "text": "Ei!"
+    },
+    "description": {
+      "text": "Ei! Ah, olá estranho, eu precisava da sua ajuda com algo!"
+    }
+  }
+}

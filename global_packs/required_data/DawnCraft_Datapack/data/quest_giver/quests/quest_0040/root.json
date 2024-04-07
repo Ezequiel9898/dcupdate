@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Ei você!"
+    },
+    "description": {
+      "text": "Ei aventureiro! Tenho um desafio para você, está pronto?"
+    }
+  }
+}

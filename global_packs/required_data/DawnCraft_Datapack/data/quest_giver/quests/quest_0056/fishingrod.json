@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Desbloqueando a Vara de Pesca"
+    },
+    "description": {
+      "text": "É, eu posso te ensinar a pescar, mas vai custar 18 esmeraldas."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Valeu!"
+    },
+    "description": {
+      "text": "Não é tão difícil, não é mesmo? Mas não balance muito a vara, isso assusta os peixes."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 18
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add fishing level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

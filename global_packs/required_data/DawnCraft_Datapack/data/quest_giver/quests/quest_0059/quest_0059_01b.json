@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Controle de Tempo"
+    },
+    "description": {
+      "text": "Eu ouvi dizer que existem coisas que ajudam a controlar o tempo. Elas são chamadas... como era mesmo? Ah, sim - $(red)Ampulhetas$()! Você poderia conseguir uma para mim?"
+    }
+  }
+}

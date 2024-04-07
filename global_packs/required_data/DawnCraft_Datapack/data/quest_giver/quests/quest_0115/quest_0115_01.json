@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0115_01b",
+  "reputation": 10,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "Uma Oferta"
+    },
+    "description": {
+      "text": "6 Esmeraldas é tudo o que eu preciso para te mostrar onde a Monstruosidade está na Dimensão do Nether."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Aqui está, boa caçada! Lembre-se, este mapa só funciona se você abri-lo no Nether. Achou confuso, né?"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "amount": 6
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "simple_mobs:rolled_map_1"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/gamestage add @p netherian2 true",
+      "id": "quest_giver:command"
+    }
+  ]
+}

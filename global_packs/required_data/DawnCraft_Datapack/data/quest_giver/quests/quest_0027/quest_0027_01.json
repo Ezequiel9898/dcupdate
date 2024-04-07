@@ -1,0 +1,45 @@
+{
+  "parent": "quest_giver:quest_0027_01b",
+  "reputation": 20,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "text": "Caçando Espíritos"
+    },
+    "description": {
+      "text": "Ainda não conseguiu matar as $(red)5 Armaduras Possuídas$()? Bem, tente mais uma vez, haha!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Aqui Está."
+    },
+    "description": {
+      "text": "Haha, você realmente conseguiu! Você é maluco, mas eu gosto disso! Aqui está sua recompensa, é bem merecida!"
+    }
+  },
+  "tasks": [ 
+    {
+      "entity": "dannys_expansion:hollow_armor",
+      "id": "quest_giver:kill",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_armorer",
+      "id": "quest_giver:command"
+    }
+  ]
+}

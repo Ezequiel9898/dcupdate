@@ -1,0 +1,12 @@
+{
+  "reputation": 8,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Ei!"
+    },
+    "description": {
+      "text": "Saudações! Você já foi para a dimensão do Eterno Entardecer ou Eterno Amanhecer? De qualquer forma, você poderia me dar uma mãozinha?"
+    }
+  }
+}

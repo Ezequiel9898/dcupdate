@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 46,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "Ajuda"
+    },
+    "description": {
+      "text": "Ótimo! Você sabia que ao derrotar o Dragão do End, ele dropara um ovo? Basicamente, eu gostaria que você me deixasse dar uma olhada no $(red)ovo de dragão$(). Você poderia fazer isso por mim?"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 6,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "Ajuda"
+    },
+    "description": {
+      "text": "Os saqueadores sequestraram uma criança de nossa vila... Por favor, vá salvá-la e a traga de volta para casa. Os guardas aqui estão sobrecarregados com deveres de patrulha, e você é a nossa única esperança."
+    }
+  }
+}

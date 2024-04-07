@@ -1,0 +1,12 @@
+{
+  "reputation": 45,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "Oi!"
+    },
+    "description": {
+      "text": "Ouvi informações sobre um grupo de bandidos estrangeiros do lado leste que recentemente chegaram e começaram a saquear vilas. Se você puder buscar um pedaço de papel para mim, posso desenhar um mapa para marcar a localização deles para você."
+    }
+  }
+}

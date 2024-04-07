@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "E então?"
+    },
+    "description": {
+      "text": "Já esqueceu? Eu preciso de 5 olhos de aranha."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Obrigado pela ajuda!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:spider_eye"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_cleric",
+      "id": "quest_giver:command"
+    }
+  ]
+}

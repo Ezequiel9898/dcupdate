@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0040_02b",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "E aí?"
+    },
+    "description": {
+      "text": "E aí, conseguiu a escama?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Ah, bem, o que temos aqui. Espero que essa tarefa não tenha lhe deixado nenhuma cicatriz, haha! Aqui está sua recompensa, ouvi dizer que o seu tipo gosta de diamantes."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "alexsmobs:crocodile_scute"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:diamond"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

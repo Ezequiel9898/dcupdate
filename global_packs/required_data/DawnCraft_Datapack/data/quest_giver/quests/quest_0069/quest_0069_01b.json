@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "Ajuda"
+    },
+    "description": {
+      "text": "Você poderia me trazer um pedaço de pele de coelho?"
+    }
+  }
+}

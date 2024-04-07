@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:filled_map"
+    },
+    "title": "Pé na Estrada",
+    "description": "Descubra um Mapa de Exploração de um Templo Infestado",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "dungeons_arise:find_monasteries",
+  "criteria": {
+    "find_map": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "dungeons_arise:chests/monastery/monastery_map"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "find_map"
+    ]
+  ]
+}

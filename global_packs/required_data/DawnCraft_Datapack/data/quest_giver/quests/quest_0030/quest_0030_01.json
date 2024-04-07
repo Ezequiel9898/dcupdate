@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0030_01b",
+  "reputation": 12,
+  "icon": "minecraft:iron_helmet",
+  "start": {
+    "title": {
+      "text": "Fabricando um Alto-Forno"
+    },
+    "description": {
+      "text": "Ei. Você já fabricou um alto-forno? Certifique-se de fabricar um novo em vez de pegar outros!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Ótimo!"
+    },
+    "description": {
+      "text": "Ótimo! Com certeza poderei fazer equipamentos melhores com essa nova instalação. Obrigado!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:blast_furnace"
+      },
+      "id": "quest_giver:craft",
+      "times": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:blast_furnace"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_armorer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

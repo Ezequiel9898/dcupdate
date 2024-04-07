@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0035_02b",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Incendium"
+    },
+    "description": {
+      "text": "Lembre-se das Terras Arrasadas de Cinzas no Nether. Volte para mim depois de visitá-las."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Pronto"
+    },
+    "description": {
+      "text": "Isso é fascinante... Obrigado por me contar sobre esse lugar. Aqui está sua recompensa. Bem, agora vá embora... Tenho uma decisão importante a tomar."
+    }
+  },
+  "tasks": [
+    {
+		"id": "afptweaks:advancement",
+		"advancement": "custom:scarlet_rot"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    }
+  ]
+}

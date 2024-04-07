@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 12,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "Coleta de Penas"
+    },
+    "description": {
+      "text": "Você já conseguiu $(red)2 Penas de Papa-Léguas$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Hmm... A qualidade não parece ser especialmente boa. Vou ver se consigo usá-la de outras maneiras. De qualquer forma, aqui está, como agradecimento pelo seu esforço."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "alexsmobs:roadrunner_feather"
+      },
+      "id": "quest_giver:gift",
+      "times": 2
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_fletcher",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 3
+    }
+  ]
+}

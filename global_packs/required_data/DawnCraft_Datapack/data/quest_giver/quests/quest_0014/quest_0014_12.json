@@ -1,0 +1,29 @@
+{
+  "parent": "quest_giver:quest_0014_11",
+  "reputation": 10,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "O End... é apenas o Começo??"
+    },
+    "description": {
+      "text": "Se você precisa saber... A divindade que corrompeu o Dragão Ender... Ela ainda está muito viva. Mas esse ser é simplesmente muito poderoso, até mesmo para você. O mapa para encontrá-la está em posse do Guardião Ender. Quanto ao paradeiro do Guardião Ender... Nossos enderianógrafos podem ter uma pista. Eu não aconselho você a prosseguir com isso. Você já fez mais do que o suficiente."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "O Verdadeiro End"
+    },
+    "description": {
+      "text": "Eu... Eu sinto muito por ter duvidado de você. Você é realmente único.                                      - Fim da Missão Principal -"
+    }
+  },
+  "tasks": [
+    {
+		"id": "afptweaks:advancement",
+		"advancement": "simple_mobs:killelementaldeity"
+    }
+  ],
+  "rewards": [
+  ]
+}

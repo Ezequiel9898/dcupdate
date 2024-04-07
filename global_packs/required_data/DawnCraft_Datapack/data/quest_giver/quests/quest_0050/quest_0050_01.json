@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 7,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "Conselho"
+    },
+    "description": {
+      "text": "Apenas um conselho... Embora a maioria das pessoas aqui sejam legais e tals, algumas delas... nem tanto. Não acredite em tudo o que as pessoas dizem, ok?"
+    }
+  }
+}

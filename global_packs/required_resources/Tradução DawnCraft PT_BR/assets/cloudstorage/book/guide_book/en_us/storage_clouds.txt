@@ -1,0 +1,18 @@
+Para começar a armazenar itens na nuvem, você precisará de pelo menos dois Balões e um Baú de Nuvem. Eles podem ser fabricados da seguinte maneira:
+<NEWLINE>
+<NEWLINE>
+Balões podem ser amarrados em cercas para exibição e podem ser segurados para diminuir ligeiramente o dano de queda e a velocidade.
+<NEWLINE>
+<NEWLINE>
+Antes que o Baú das Nuvens possa ser usado, você precisará adicionar espaço ao armazenamento de nuvens associado à cor do seu balão.
+Balões podem ser tingidos de qualquer cor, assim como armaduras de couro, e a cor do balão indica o espaço de armazenamento dele na nuvem.
+Amarrando um Balão a um baú ou outro inventário e enviando-o para o céu, você adicionará o espaço de armazenamento desse baú ao inventário das nuvens associado à cor do Balão.
+<NEWLINE>
+Após ter carregado com sucesso um baú na nuvem, coloque um balão da mesma cor em um Baú de Nuvem para vinculá-lo. Note que Baús de Nuvem devem ter acesso ao céu para funcionar e não funcionarão no subterrâneo ou no Nether.
+O inventário deste Baú de Nuvem está vinculado exclusivamente a você e não pode ser acessado por ninguém, nem por funis e outros inventários, assim como um baú do fim. Para criar um inventário de nuvem que seja acessível a todos, você deve criar um Baú de Nuvem Estático com Blocos de Nuvem Estáticos.
+<NEWLINE>
+Para enviar (ou carregar) o espaço de inventário para um Baú de Nuvem Estático, você deve usar um Balão Estático, que pode ser obtido usando um Bloco de Nuvem Estático. Qualquer baú enviado usando um Balão normal será simplesmente adicionado ao seu armazenamento privado na nuvem!
+<NEWLINE>
+Todos os Baús de Nuvem podem ser rolados (se forem grandes o suficiente) e podem ser ordenados ou pesquisados usando os botões úteis à esquerda. Se o seu armazenamento em nuvem estiver muito cheio, basta enviar baús adicionais amarrando-os a um Balão da mesma cor. Sim, é tão fácil assim.
+<NEWLINE>
+Se você ainda tiver alguns balões extras, pode combiná-los com oito flechas para criar Flechas com Balões, que voarão em linha reta, sem serem afetadas pela gravidade. Se elas acertarem um monstro, ele flutuará para cima por um curto período de tempo.

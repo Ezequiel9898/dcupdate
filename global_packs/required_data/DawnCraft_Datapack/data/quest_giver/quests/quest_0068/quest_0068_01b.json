@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 8,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "Ajuda"
+    },
+    "description": {
+      "text": "Fantástico. Você poderia preparar um prato chamado $(red)Presunto com Cobertura de Mel$()? Eu e meus amigos estamos ansiosos para saborear esse prato novamente."
+    }
+  }
+}

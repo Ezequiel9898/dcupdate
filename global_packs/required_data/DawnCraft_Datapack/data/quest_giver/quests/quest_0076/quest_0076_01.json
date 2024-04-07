@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 28,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "Pedras de Outra Dimensão"
+    },
+    "description": {
+      "text": "Já conseguiu a $(red)pedra lunar$()? Você pode encontrá-las na dimensão do Eterno Amanhecer."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Obrigado. A qualidade é... abaixo do esperado. Vou pensar em outros usos para ela."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "blue_skies:lunar_stone"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_mason",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:village @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

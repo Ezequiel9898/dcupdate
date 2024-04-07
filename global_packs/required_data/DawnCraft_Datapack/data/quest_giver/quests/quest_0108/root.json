@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Ei!"
+    },
+    "description": {
+      "text": "Olá aventureiro, gostaria de aprender uma habilidade de combate? Eu aposto que sim."
+    }
+  }
+}

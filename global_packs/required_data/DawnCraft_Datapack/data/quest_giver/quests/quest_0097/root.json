@@ -1,0 +1,12 @@
+{
+  "reputation": 12,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "Ei!"
+    },
+    "description": {
+      "text": "Ouvi dizer que alguns de nossa espécie se mudaram para castelos individuais com engenhocas do Create. Se você se deparar com um, poderia me dizer como é esse lugar?"
+    }
+  }
+}

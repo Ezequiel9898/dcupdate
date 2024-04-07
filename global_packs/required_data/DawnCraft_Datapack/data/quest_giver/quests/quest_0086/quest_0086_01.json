@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0086_01b",
+  "reputation": 37,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Um Pedido Urgente"
+    },
+    "description": {
+      "text": "Você conseguiu as $(red)16 barras de ferro$()? Por favor, seja rápido."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Obrigado, eu sei que não deveria estar pedindo a um aventureiro para ajudar com a coleta de recursos... Mas não tenho muita escolha. O exército dos saqueadores está se aproximando, eles estarão vindo para esta vila em breve... Me avise se você quer um contrato de extermínio, ficarei feliz em oferecer."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "id": "quest_giver:gift",
+      "times": 16
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 3
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

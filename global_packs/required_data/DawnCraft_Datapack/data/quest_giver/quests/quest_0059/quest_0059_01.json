@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0059_01b",
+  "reputation": 4,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Controle de Tempo"
+    },
+    "description": {
+      "text": "Você conseguiu a ampulheta? Nem me lembro quando te pedi isso. Meu Deus, eu preciso de uma. Por favor, se apresse."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Legal! Aqui está... espera, não há nada dentro. Como eu uso isso? Hm... você poderia me conseguir um pouco de $(red)pó de redstone$()? Assim posso colocar na ampulheta."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "supplementaries:hourglass"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ]
+}

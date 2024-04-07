@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 24,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "Ajuda"
+    },
+    "description": {
+      "text": "Preciso que você colete $(red)2 pedaços de pele de urso branco$(). Esses ursos podem ser um pouco mais resistentes do que outros de urso, então tome cuidado. Volte aqui quando tiver os itens em mãos."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "Aprenda a Usar o Cortador de Pedras"
+    },
+    "description": {
+      "text": "Hmm... tudo bem. Me dê 15 Esmeraldas se você quiser aprender a usar a cortador de pedras."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Obrigado!"
+    },
+    "description": {
+      "text": "Aqui está!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 15
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add woodcutting level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

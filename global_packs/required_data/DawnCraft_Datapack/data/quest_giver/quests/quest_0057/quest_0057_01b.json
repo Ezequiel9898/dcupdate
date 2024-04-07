@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Fazendo uma Vara de Pesca"
+    },
+    "description": {
+      "text": "Minha vara de pesca está quase quebrada... você poderia fazer uma nova para mim? O artesão que conheço está fora da cidade nos últimos dias..."
+    }
+  }
+}

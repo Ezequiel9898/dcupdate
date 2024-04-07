@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 13,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "Um Item Precioso"
+    },
+    "description": {
+      "text": "Você poderia ir a um lugar e recuperar um machado de ferro? O local foi invadido por orcs, então tive que abandoná-lo... Espere, pegue um pedaço de papel, vou desenhar um mapa para você."
+    }
+  }
+}

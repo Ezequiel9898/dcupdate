@@ -1,0 +1,44 @@
+{
+	"parent": "quest_giver:quest_0046_02b",
+	"reputation": 15,
+	"icon": "minecraft:paper",
+	"start": {
+		"title": {
+			"text": "Olá"
+		},
+		"description": {
+			"text": "Parece que você ainda não concluiu o seu contrato., ou você esqueceu da sua tarefa? Traga para mim $(red)5 dentes de orcs$() como prova da sua tarefa de extermínio."
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "Aqui está."
+		},
+		"description": {
+			"text": "Muito bem. Não tenho mais tarefas para você no momento. Apenas saiba que o mal está sempre à espreita, mantenha-se vigilante."
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "orcz:orcteeth"
+		},
+		"id": "quest_giver:gift",
+		"times": 5
+	}],
+	"rewards": [{
+			"item": {
+				"item": "minecraft:emerald"
+			},
+			"id": "quest_giver:item",
+			"times": 2
+		},
+		{
+			"command": "/advancement grant @p only custom:trade_cleric",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/give @p potion{display:{Name:'[{\"text\":\"Potion of Healing\",\"italic\":false}]'},CustomPotionEffects:[{Id:6,Duration:1,Amplifier:5}]} 1",
+			"id": "quest_giver:command"
+		}
+	]
+}

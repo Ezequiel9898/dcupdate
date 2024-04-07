@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0048_02",
+  "reputation": 25,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "Guardas"
+    },
+    "description": {
+      "text": "Ainda quer algo, 'herói'? Bem, quer aprender a usar o caldeirão de mistura? Mate 3 guardas da vila para mim. Eu preciso do sacrifício deles para... Bem, não é da sua conta. Apenas mate 3. Os mais quietos, não escolha os tagarelas que te dão tarefas. E faça isso silenciosamente... se puder. Eu não quero ser vinculado a assassinatos."
+    }
+  }
+}

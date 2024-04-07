@@ -1,0 +1,12 @@
+{
+  "reputation": 28,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "Oi!"
+    },
+    "description": {
+      "text": "Você poderia me conseguir uma $(red)pedra lunar$() da dimensão do Eterno Amanhecer? Estou curioso sobre sua qualidade."
+    }
+  }
+}
